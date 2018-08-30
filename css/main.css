@@ -114,7 +114,7 @@ a {
 	padding-bottom: 80px;
 }
 
-.services-items h3 p {
+.services-item h3, .services-item p {
 	padding-top: 15px;
 }
 
