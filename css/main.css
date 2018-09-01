@@ -70,15 +70,15 @@ a {
 	height: 70px;
 	line-height: 70px;
 	background-color: #fed136;
-    color: #484543;
-    font-size: 18px;
-    font-weight: bold; 
-    text-transform: uppercase;
-    border-radius: 5px;
-    outline: none;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
+	color: #484543;
+	font-size: 18px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	border-radius: 5px;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 .button:hover{
@@ -94,16 +94,16 @@ a {
 .services-title {
 	padding-top: 125px; 
 	font-size: 40px;
-    color: #000000;
-    text-transform: uppercase;
-    text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .services-note {
 	padding-top: 15px;
 	font-size: 16px;
-    text-align: center;
-    color: #777777;
+	text-align: center;
+	color: #777777;
 }
 
 .services-items {
@@ -245,10 +245,70 @@ header .icon {
 
 @media screen and (max-width: 1000px) {
 	.header-container {
+		width: 100%;
 		margin: 0 auto;
-		display: flex;
+		display: flex;	
 		justify-content: space-around;
 	}
+
+	.header-container a{
+		margin-right: initial;
+	}
+	
+	.services-items {
+		margin-right: initial;
+		margin-left: initial;
+	}
+
+	.portfolio-img {
+		display: block;
+		justify-content: space-around;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.about-us-block-content-left {
+		margin-right: initial;
+	} 
+
+	.about-us-img-content-left {
+		margin-left: 20px; 
+	}
+
+	.about-us-block-content-right {
+		margin-top: 50px;
+		margin-right: initial;
+		margin-left: 0px;
+		justify-content: center;
+		display: flex;
+	}
+
+	.about-us-info-content-right {
+		display: flex;
+		flex-direction: column;
+		text-align: right;
+		width: 300px;
+	}
+
+	.about-us-info-title-content-right {
+		margin-bottom: 10px;
+		text-transform: uppercase; 
+		font-weight: bold;
+	}
+
+	.about-us-info-title-note-content-right {
+		margin-bottom: 10px;
+		font-weight: bold; 
+	}
+
+	.about-us-img-content-right {
+		margin-left: initial; 
+	}
+
+	.menu {
+		padding-left: initial;
+	}
+
 	.menu a {
 		display: none;
 		flex-direction: column;
@@ -256,6 +316,7 @@ header .icon {
 	header a.icon {
 		display: flex;
 		font-size: 25px;
+		position: absolute;
 		/*padding-left: 50px; */
 	}
 
