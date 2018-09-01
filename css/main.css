@@ -278,7 +278,7 @@ header .icon {
 	.about-us-block-content-right {
 		margin-top: 50px;
 		margin-right: initial;
-		margin-left: 0px;
+		margin-left: initial;
 		justify-content: center;
 		display: flex;
 	}
