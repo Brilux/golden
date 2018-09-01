@@ -33,6 +33,7 @@ a {
 
 .menu {
 	display: flex;
+	padding-left: 280px;
 }
 
 .header-container a {
@@ -236,4 +237,33 @@ a {
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+
+header .icon {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.header-container {
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-around;
+	}
+	.menu a {
+		display: none;
+		flex-direction: column;
+	}
+	header a.icon {
+		display: flex;
+		font-size: 25px;
+		/*padding-left: 50px; */
+	}
+
+	header .menu.responsive {
+		flex-direction: column;
+	}
+
+	.menu.responsive a {
+		display: flex;
+	}
 }
