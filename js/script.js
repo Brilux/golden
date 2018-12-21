@@ -1,10 +1,3 @@
-icon_menu.onclick = function myFunction() {
-	var x = document.getElementById('adaptive-menu');
-
-	if (x.className === "menu") {
-		x.className += " responsive";
-	}
-	else {
-		x.className = "menu";
-	}
-}
+const adaptiveMenu = document.getElementById('adaptive-menu');
+const myFunction = () => adaptiveMenu.className === "menu"
+    ? adaptiveMenu.className += " responsive" : adaptiveMenu.className = "menu";
